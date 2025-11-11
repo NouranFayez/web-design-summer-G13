@@ -114,6 +114,4 @@ function handleChangeImg(element){
     let img = document.getElementById('card-img')
     img.src = element.src
 
-
-
 }

@@ -108,10 +108,10 @@
 
 /* nested css selector */
 .card{
-     width: 50%;
+    width: 50%;
     padding: 2%;
     box-shadow: 0px 0px 4px lightgray;
-    & p{
+     p{
         font-size: var(--font-large);
         &:hover{
             color: var(--mainColor);

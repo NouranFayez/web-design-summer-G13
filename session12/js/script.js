@@ -271,6 +271,11 @@ usersList.forEach(item=>{
 
 
 var userInd = usersList.findIndex(ele => ele.firstName == 'Tamer')
+usersList.findIndex((item , i , arr)=>{
+    console.log(item)
+    console.log(i)
+    console.log(arr)
+})
 console.log(userInd)
 
 
